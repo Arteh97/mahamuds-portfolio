@@ -1,5 +1,24 @@
-img {
-	width: 25wv;
-	height: 25vh;
+section {
+	display: grid;
 	place-items: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	display: grid;
+	text-align: center;
+}
+
+img {
+	width: 5rem;
+	height: 7.5rem;
+	place-items: center;
+	border-radius: 45px;
+}
+
+p {
+	text-align: center;
 }
