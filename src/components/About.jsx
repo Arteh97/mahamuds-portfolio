@@ -1,20 +1,20 @@
-import React from "react";
-import profilePic from "../profile.png";
-import styles from "./About.module.css";
+import React from 'react';
+import profilePic from '../profile.png';
+import styles from './About.module.css';
 
 const About = () => {
 	return (
-		<section id="about">
+		<section id='about'>
 			<div className={styles.content}>
-				<div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-					<h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+				<div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
+					<h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-white'>
 						Hi, I'm Mahamud.
 						<br />
 						<br />
-						<img src={profilePic} />
+						<img src={profilePic} alt='#' />
 					</h1>
 					<br />
-					<p className="mb-8 leading-relaxed">
+					<p className='mb-8 leading-relaxed'>
 						Hello, my name is Mahamud Arteh, and I am a recently graduated
 						full-stack engineer. I can handle all the work of databases,
 						servers, systems, and engineering. Depending on the project I am
