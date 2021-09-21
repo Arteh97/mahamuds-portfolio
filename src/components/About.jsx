@@ -1,17 +1,15 @@
 import React from 'react';
 import profilePic from '../profile.png';
-import styles from './About.module.css';
 
 const About = () => {
 	return (
 		<section id='about'>
-			<div className={styles.content}>
+			<div className='container mx-auto flex px-10 py-20 md:flex-row flex-col items-center'>
 				<div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
 					<h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-white'>
 						Hi, I'm Mahamud.
 						<br />
 						<br />
-						<img src={profilePic} alt='#' />
 					</h1>
 					<br />
 					<p className='mb-8 leading-relaxed'>
@@ -48,6 +46,13 @@ const About = () => {
 						northcoders, but the most significant thing I took from the
 						Bootcamp, was the importance of collaborating with others.
 					</p>
+				</div>
+				<div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6'>
+					<img
+						src={profilePic}
+						alt='#'
+						className='object-cover object-center rounded'
+					/>
 				</div>
 			</div>
 		</section>
